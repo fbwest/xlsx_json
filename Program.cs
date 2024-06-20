@@ -70,7 +70,7 @@ string GetWines(DbDataReader dataReader)
         {
             id = rec[0],//Convert.ToInt32(rec[0]),
             guide_year = rec[1],//Convert.ToInt16(rec[1]),
-            //manufacturer_id = Convert.ToInt32(col[2]), // ???
+            //manufacturer_id = Convert.ToInt32(col[2]), // убрать
             manufacturer_reference_name = rec[2],
             manufacturer_given_name = rec[3],
             category = rec[4],
